@@ -1,0 +1,9 @@
+services:
+  mavenagi:
+    build: .
+    volumes:
+      - ./workspace:/app/workspace
+      - ./traces:/app/traces
+    environment:
+      - MAVENAGI_WORKSPACE=/app/workspace
+      - MAVENAGI_TRACES_DIR=/app/traces

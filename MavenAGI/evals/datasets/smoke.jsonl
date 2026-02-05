@@ -1,0 +1,3 @@
+{"id": "calc_basic", "input": "calculate (19*7)+3", "must_contain": "136", "notes": "basic arithmetic"}
+{"id": "note_write", "input": "write a note: hello world", "must_contain": "saved", "notes": "writes to workspace"}
+{"id": "rag_docs", "input": "search docs for: guardrails", "must_contain": "guardrails", "notes": "retrieval from docs index"}
